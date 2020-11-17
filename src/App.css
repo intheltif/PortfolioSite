@@ -10,8 +10,8 @@
   background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
-  position: fixed;
-  top: 0;
+  position: relative;
+  top: 0;:
   left: 0;
   width: 100%;
   height: 100%;
@@ -19,8 +19,8 @@
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  height: 175px;
+  border-radius: 30px;
 }
 
 .banner-text {
@@ -28,7 +28,7 @@
   opacity: .8;
   width: 75%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .banner-text h1 {

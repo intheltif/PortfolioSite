@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+const AVATAR_SRC = "/headshot.jpg"
+
 
 class Landing extends Component {
     render() {
@@ -8,7 +10,7 @@ class Landing extends Component {
               <Grid className='landing-grid'>
                 <Cell col={12}>
                   <img
-                    src="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg"
+                    src={AVATAR_SRC}
                     alt="Avatar"
                     className="avatar-img"
                   />
